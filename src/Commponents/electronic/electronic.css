@@ -1,0 +1,16 @@
+.electronic-item img {
+  width: 100%;
+}
+
+.electronic-item-title h4 {
+  font-weight: 700;
+  background-color: rgb(243, 243, 243);
+}
+.electronic-item-title h4:hover {
+  font-weight: 700;
+  background-color: rgb(243, 243, 243);
+}
+
+.electronic-item:hover {
+  transform: scale(1.1);
+}

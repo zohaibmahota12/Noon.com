@@ -1,0 +1,65 @@
+.my-dropdown {
+  margin-left: 0.9em;
+}
+.manubar {
+  background: rgb(252, 251, 244);
+  border-bottom: 1px solid rgb(226, 229, 241);
+  position: relative;
+}
+.all-categories-manu {
+  max-width: 1920px;
+  margin: 0px auto;
+  display: flex;
+  position: relative;
+}
+.trigger {
+  cursor: pointer;
+  width: 216px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 0px 15px;
+  min-height: 44px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  border-right: 1px solid rgb(226, 229, 241);
+  color: rgb(56, 102, 223);
+}
+.trigger::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: rgb(56, 102, 223) transparent transparent;
+  border-image: initial;
+  margin-top: 7px;
+  transition: transform 0.25s ease-in-out 0s;
+}
+.menu {
+  display: none;
+  border-radius: 3px;
+  box-shadow: rgb(173 193 207 / 35%) 0px 5px 5px -4px;
+  position: absolute;
+  background: rgb(255, 255, 255);
+}
+.category {
+  background-color: rgb(252, 251, 244);
+  padding: 15px 10px;
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(226, 229, 241);
+}
+.menu .category .selected {
+  color: rgb(56, 102, 223);
+}
+
+.noon-grocery img {
+  width: 100px;
+  
+}

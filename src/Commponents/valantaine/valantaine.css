@@ -1,0 +1,11 @@
+.valantine-day-store-item img {
+  width: 100%;
+}
+.valantine-day-store-item-title h4 {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(162, 41, 58);
+}
+.valantine-day-store-item:hover {
+  transform: scale(0.9);
+}

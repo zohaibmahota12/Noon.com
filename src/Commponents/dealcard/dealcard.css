@@ -1,0 +1,9 @@
+.deal-item a img {
+  width: 100%;
+}
+.deal-item {
+  background-color: rgb(255, 255, 255);
+}
+.deal-item:hover {
+  transform: scale(0.9);
+}

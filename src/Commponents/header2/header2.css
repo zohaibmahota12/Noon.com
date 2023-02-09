@@ -1,0 +1,43 @@
+header {
+  background-color: yellow;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.navbar-logo-image img {
+  width: 80%;
+}

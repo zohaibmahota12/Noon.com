@@ -1,0 +1,52 @@
+.bg-cust {
+  background-color: yellow;
+}
+.navbar-logo-image img {
+  width: 80%;
+}
+.nav-link {
+  display: flex;
+}
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-toggle::after {
+  margin-left: 0.255em;
+  margin-top: 0.6em;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+}
+.divider {
+  display: flex;
+  margin: auto 12px;
+  border-left: 1px solid rgba(64, 69, 83, 0.4);
+  height: 23px;
+}
+.sign-in li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.sign-in li a:hover {
+  transform: scale(1.2);
+  transform: translateY(-3px);
+}

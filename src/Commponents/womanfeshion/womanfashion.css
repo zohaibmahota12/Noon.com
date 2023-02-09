@@ -1,0 +1,11 @@
+.woman-man-item img {
+  width: 100%;
+}
+.woman-man-item-title h4 {
+  font-weight: 700;
+  background-color: white;
+  border-radius: 20% 0 20% 0;
+}
+.woman-man-item:hover {
+  transform: scale(0.9);
+}
